@@ -1,0 +1,13 @@
+%h1 Login
+= form_tag '/sign_in' do
+  = label_tag :email
+  = text_field_tag :email
+  %br/
+  = label_tag :password
+  = password_field_tag :password
+  %br/
+  %br/
+  = submit_tag "Sign In"
+
+%br
+= model

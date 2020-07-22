@@ -1,0 +1,13 @@
+.content Register new user
+
+%br
+
+= simple_form_for form do |f|
+  = f.input :name
+  %br
+  = f.input :email
+  %br
+  = f.input :password
+  %br
+  = f.button :submit, "Sign up!"
+  
