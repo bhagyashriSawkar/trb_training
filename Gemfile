@@ -58,7 +58,7 @@ gem 'trailblazer-endpoint', github: 'trailblazer/trailblazer-endpoint'
 gem "pundit"
 gem "cells-rails"
 gem "cells-haml"
-gem 'simple_form', '4.0.0'
+gem 'simple_form', '5.0.0'
 gem 'reform'
 gem 'reform-rails'
 gem 'jwt'
